@@ -6,19 +6,19 @@ date: "2023-09-18"
 
 ## Table of Contents
 
-1. [Introduction](#Introduction)
-2. [Business Objectives](#Business_Objectives)
-3. [Dataset Overview](#Dataset_Overview)
-4. [Data Cleaning and Preprocessing](#Data_Cleaning_and_Preprocessing)
-5. [Exploratory Data Analysis (EDA)](#Exploratory_Data_Analysis (EDA))
-6. [Customer Segmentation](#Customer_Segmentation)
-7. [Customer Profiling](#Customer_Profiling)
-8. [Spending Behavior Analysis](#Spending_Behavior_Analysis)
-9. [Age and Income Insights](#Age_and_Income_Insights)
-10. [Profession and Experience Impact](#Profession_and_Experience_Impact)
-11. [Family Size Dynamics](#Family_Size_Dynamics)
-12. [Conclusion](#Conclusion)
-13. [Recommendations](#Recommendations)
+1. [Introduction](##Introduction)
+2. [Business Objectives](##Business_Objectives)
+3. [Dataset Overview](##Dataset_Overview)
+4. [Data Cleaning and Preprocessing](##Data_Cleaning_and_Preprocessing)
+5. [Exploratory Data Analysis (EDA)](##Exploratory_Data_Analysis (EDA))
+6. [Customer Segmentation](##Customer_Segmentation)
+7. [Customer Profiling](##Customer_Profiling)
+8. [Spending Behavior Analysis](##Spending_Behavior_Analysis)
+9. [Age and Income Insights](##Age_and_Income_Insights)
+10. [Profession and Experience Impact](##Profession_and_Experience_Impact)
+11. [Family Size Dynamics](##Family_Size_Dynamics)
+12. [Conclusion](##Conclusion)
+13. [Recommendations](##Recommendations)
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
