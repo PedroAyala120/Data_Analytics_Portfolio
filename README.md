@@ -27,7 +27,7 @@ Welcome to the "Shop Customer Data Analytics Case Study" repository. In this cas
 **Programming Language used:**
   - R
 
-The dataset "Customers.csv" is located in the [CSV files](CSV files/Customers.csv) folder
+The dataset "Customers.csv" is located in the CSV files folder
 
 [Link](https://www.kaggle.com/datasets/datascientistanna/customers-dataset) to the original data set
 
