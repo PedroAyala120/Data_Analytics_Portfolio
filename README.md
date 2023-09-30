@@ -28,7 +28,8 @@ Welcome to the "Shop Customer Data Analytics Case Study" repository. In this cas
   - R
 
 The dataset "Customers.csv" is located in the [CSV files](CSV files/Customers.csv) folder
-[Link to original data set](https://www.kaggle.com/datasets/datascientistanna/customers-dataset)
+
+[Link](https://www.kaggle.com/datasets/datascientistanna/customers-dataset) to the original data set
 
 **Packages used:**
   - tidyverse
