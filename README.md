@@ -2,3 +2,4 @@
 
   
   
+file:///C:/Users/pedro/Downloads/Shop-Customer-Data-Analytics-Case-Study.html
