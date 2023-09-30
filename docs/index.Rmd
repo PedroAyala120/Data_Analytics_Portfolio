@@ -12,8 +12,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 ### Install Packages
 ```{r warning=FALSE}
-# install.packages("tidyverse")
-# install.packages("dplyr")
+install.packages("tidyverse")
+install.packages("dplyr")
 ```
 ### Load Libraries
 ```{r warning=FALSE}
