@@ -21,7 +21,7 @@ library(tidyverse)
 library(dplyr)
 library(ggplot2)
 # Load CSV file
-Customers <- read.csv("C:/Users/pedro/Pictures/Coursera/Shop_Customer_Data_Dataset/Customers.csv") 
+Customers <- read.csv("CSV files/Customers.csv") 
 ```
 ## R Markdown
 
