@@ -159,7 +159,7 @@ result <- Customers %>%
 # Print the calculated averages
 print(result)
 ```
-
+![alt text](https://github.com/[PedroAyala120]/[Data_Analytics_Portfolio]/blob/[Images]/case-1.jpg?raw=true)
 
 Here is a quick preview of the data we have to work with before analysis.
 
