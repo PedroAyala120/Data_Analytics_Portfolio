@@ -159,7 +159,9 @@ result <- Customers %>%
 # Print the calculated averages
 print(result)
 ```
-![alt text](https://github.com/[PedroAyala120]/[Data_Analytics_Portfolio]/blob/[Images]/case-1.jpg?raw=true)
+![case 1](https://github.com/PedroAyala120/Data_Analytics_Portfolio/assets/58533253/27f84dec-b2b3-41ce-af03-7905e75ec2fa)
+![case 2](https://github.com/PedroAyala120/Data_Analytics_Portfolio/assets/58533253/a736c8c1-347e-4ef8-b5ee-c874cd5f1d19)
+![case 3](https://github.com/PedroAyala120/Data_Analytics_Portfolio/assets/58533253/61310261-0818-45e8-b0ba-e69e2d1c444e)
 
 Here is a quick preview of the data we have to work with before analysis.
 
@@ -187,6 +189,9 @@ estimated_binwidth_spending_score <- 3.5 * sd(Customers$Spending.Score..1.100.) 
 ggplot(Customers, aes(x = Spending.Score..1.100.)) + geom_histogram(binwidth = estimated_binwidth_spending_score, fill = "red", color = "black") + labs(title = "Spending Score Distribution", x = "Spending Score", y = "Customers") +
   theme_minimal()
 ```
+![case 4](https://github.com/PedroAyala120/Data_Analytics_Portfolio/assets/58533253/ddd66e2b-2959-4ed1-810e-680a3754be66)
+![case 5](https://github.com/PedroAyala120/Data_Analytics_Portfolio/assets/58533253/cb9c0e4a-490c-4af9-ae97-4e0064beae71)
+![case 6](https://github.com/PedroAyala120/Data_Analytics_Portfolio/assets/58533253/5b7ac8e1-e656-4d94-9aa4-5080400ae177)
 
 I use Scott's rule to calculate the binwidth of the histograms (binwidth = 3.5 * standard deviation(data) / (n^(1/3))). Scott's rule is commonly used when you assume that your data follows a relatively normal distribution without significant outliers. It tends to create narrower bins and more detail in the histogram.
 
@@ -199,6 +204,7 @@ We create three of these distribution plots and histograms provide a visual repr
 gender_counts <- Customers %>% group_by(Gender) %>% summarise(count = n())
 ggplot(gender_counts, aes(x = Gender, y = count)) + geom_bar(stat = "identity", fill = "purple") + labs(title = "Gender Distribution")
 ```
+![case 7](https://github.com/PedroAyala120/Data_Analytics_Portfolio/assets/58533253/39c60b47-c69e-4de9-b017-1cdbccf681ef)
 
 Here using a bar graph to visualize the gender distribution of the data, we can identify that a majority of the customers are female.
 
@@ -234,6 +240,7 @@ ggplot(data = correlation_df, aes(x = Var1, y = Var2, fill = value)) +
        y = "Variables") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))  # Rotate x-axis labels for better readability
 ```
+![case 8](https://github.com/PedroAyala120/Data_Analytics_Portfolio/assets/58533253/ea6d38ba-ecc5-4af6-ae82-00c00bafead2)
 
 The resulting plot is a heat map where each cell represents the correlation between two variables. The color intensity of each cell indicates the strength and direction of the correlation. The correlation matrix can provide valuable insights into the relationships between these variables. Here we see:
 The correlation between "Family Size" and "Annual Income" is positive and significant, it suggests that customers with bigger families tend to have higher annual incomes.
@@ -268,6 +275,7 @@ ggplot(elbow_plot, aes(x = K, y = WCSS)) +
   geom_point() +
   labs(title = "Elbow Method for Optimal K", x = "Number of Clusters (K)", y = "Within-Cluster Sum of Squares (WCSS)")
 ```
+![case 9](https://github.com/PedroAyala120/Data_Analytics_Portfolio/assets/58533253/2f825ce0-680e-4780-8043-38f260b5b7ad)
 
 The elbow method is used to determine the optimal number of clusters in a dataset for K-means clustering or other clustering algorithms. It helps identify the point at which adding more clusters does not significantly improve the model's performance. The method is called "elbow" because the plot of the number of clusters against the within-cluster variance resembles an elbow, and the "elbow point" represents the optimal number of clusters, in this case being 3.
 
@@ -305,6 +313,9 @@ segment_summary <- Customers %>%
 
 print(segment_summary)
 ```
+![case 10](https://github.com/PedroAyala120/Data_Analytics_Portfolio/assets/58533253/3d695742-865e-4e05-a585-42fcd1fc9cf1)
+![case 11](https://github.com/PedroAyala120/Data_Analytics_Portfolio/assets/58533253/8ae837e0-b397-4b1a-8957-abaa9955f20e)
+![case 12](https://github.com/PedroAyala120/Data_Analytics_Portfolio/assets/58533253/4701bccc-ed8d-4077-9fa1-14d5a8fa53c7)
 
 After performing K-means clustering and assigning customers to different segments, we can describe the characteristics and behaviors of each customer segment based on the provided data set attributes, which include "Age," "Annual Income," and "Spending Score."
 
@@ -372,6 +383,9 @@ ggplot(Customers, aes(x = Annual.Income...., y = Spending.Score..1.100., color =
   labs(title = "Annual Income vs. Spending Score vs. Age", x = "Annual Income", y = "Spending Score") +
   theme_minimal()
 ```
+![case 13](https://github.com/PedroAyala120/Data_Analytics_Portfolio/assets/58533253/4863bbac-cf66-44d8-8c5f-aa65a19f2cd3)
+![case 14](https://github.com/PedroAyala120/Data_Analytics_Portfolio/assets/58533253/02989349-8321-4c98-ae2a-b2c485820187)
+![case 15](https://github.com/PedroAyala120/Data_Analytics_Portfolio/assets/58533253/a866a989-51f5-432b-84d2-7dd6659954aa)
 
 We create three scatter plots to explore the relationships:
 "Age vs. Annual Income vs. Spending Score"
@@ -417,6 +431,7 @@ work_experience_spending <- Customers %>%
 
 head(work_experience_spending)
 ```
+![case 16](https://github.com/PedroAyala120/Data_Analytics_Portfolio/assets/58533253/1091a8f8-197c-4718-a993-51395d2b9610)
 
 The code chunk above creates a table for categorizing the customers based on years of experience for easier analysis as well as be used in the following code chunk for creating bar graphs and histogram visualizations.
 
@@ -445,6 +460,10 @@ ggplot(Customers, aes(x = Spending.Score..1.100., fill = WorkExpGroup)) +
   labs(title = "Spending Score Distribution by Work Experience Group", x = "Spending Score") +
   theme_minimal()
 ```
+![case 17](https://github.com/PedroAyala120/Data_Analytics_Portfolio/assets/58533253/f4a9f393-6472-404f-b74a-2857401961a7)
+![case 18](https://github.com/PedroAyala120/Data_Analytics_Portfolio/assets/58533253/e96aff33-5203-4462-85aa-2b0622b151cf)
+![case 19](https://github.com/PedroAyala120/Data_Analytics_Portfolio/assets/58533253/50f78469-0cac-4882-b08a-6874648b2969)
+![case 20](https://github.com/PedroAyala120/Data_Analytics_Portfolio/assets/58533253/fc23f648-7126-449e-aabe-cff3edeb20d2)
 
 We create bar plots to visualize the average spending score for each profession and work experience group.
 We also create histograms to visualize the distribution of spending scores for different professions and work experience groups.
@@ -486,6 +505,8 @@ anova_result <- aov(Spending.Score..1.100. ~ Family.Size, data = Customers)
 # Print the result
 summary(anova_result)
 ```
+![case 21](https://github.com/PedroAyala120/Data_Analytics_Portfolio/assets/58533253/257f2481-fb53-418e-b99e-6fe7c1f969bb)
+![case 22](https://github.com/PedroAyala120/Data_Analytics_Portfolio/assets/58533253/8abe5e96-8f17-4942-9090-1b438b23cdfe)
 
 We can observe from the scatter plot that family size is evenly distributed in terms of spending scores, but to define it more clearly we will use a technique called ANOVA to compare spending scores.
 
