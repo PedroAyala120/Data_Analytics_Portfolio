@@ -5,7 +5,7 @@
 ## Overview
 
 Welcome to the "Shop Customer Data Analytics Case Study" repository. In this case study, we will explore and analyze an imaginary shop's dataset to gain valuable insights into customer behavior and demographics. The dataset contains information about shop customers, including their gender, age, annual income, spending score, profession, work experience, and family size. Our objective is to follow a structured approach to analyze the data and uncover patterns, insights, and trends that can help the shop's owner better understand their customers.
- 
+  
 ## Table of Contents
 
 1. Introduction
