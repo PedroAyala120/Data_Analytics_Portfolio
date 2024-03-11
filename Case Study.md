@@ -1,7 +1,7 @@
 # Shop Customer Data Analytics Case Study
 
 author: "Pedro Ayala"
-     
+      
 date: "2023-09-18"
                                                       
 ## Table of Contents
