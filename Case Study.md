@@ -4,7 +4,7 @@ author: "Pedro Ayala"
        
 date: "2023-09-18"
                                                          
-## Table of Contents
+## Table of Contents 
                                                                                                                            
 1. [Introduction](#introduction)
 2. [Business Objectives](#business_objectives)
